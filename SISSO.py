@@ -45,7 +45,7 @@ for feature, score in mi_dict.items():
 
 # 定义操作符
 operators = ['+', '-', '*', '/', 'pow(2)', 'pow(3)','pow(-1)','sqrt','exp','exp(-1)','log',
-             'abs', 'round']
+             'abs']
 
 # 创建 SissoModel 对象，根据实际情况更改
 sm = SissoModel(
